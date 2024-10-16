@@ -66,3 +66,9 @@
 .caixa-principal{
     width: 40%;
 }
+.link-whatsapp img {
+height: 60px;
+position: fixed;
+right: 20px;
+bottom: 20px;
+}
