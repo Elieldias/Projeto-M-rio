@@ -9,6 +9,8 @@
     height: 200px;
 }
 
+
+
 .botao-entre-contato{
    
     color:white;
@@ -24,10 +26,11 @@
     bottom: 20px;
     left: 20px;
     position: fixed;
+    }
+
+
+
     
-    
-    
-}
 
 
 .imagem-mario-luigi{
@@ -71,4 +74,65 @@ height: 60px;
 position: fixed;
 right: 20px;
 bottom: 20px;
+}
+;
+
+.header{
+display: flex;
+align-items: center;
+gap: 30px;
+margin: 30px;
+
+}
+.header img {
+height: 60px;
+
+}
+.header a {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.header a:hover {
+    color: #14c511;
+    font-size: 30px;
+    transition: 0.5s  ease-in-out;
+}
+.botao-entre-contato{
+    background-color: #c51111;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+}
+.botao-entre-contato:hover {
+    background-color: rgb(208, 255, 0);
+}
+.botao-entre-contato{
+    transition: background-color 0.3 ease;
+}
+.fomulario-fale-conosco{
+  background-color: white; 
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  position: fixed;
+  top: 30%;
+  left: -300px;
+  padding: 20px;
+  border-radius: 5px;
+}
+input{
+     height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18d80f;
+}
+textarea {
+    width: 280px;
+    height: 100px;
+border-radius: 5px;
+border: 1px solid gray;
+padding-left: 5px;
+outline-color: #18d80f;
 }
