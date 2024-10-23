@@ -42,8 +42,11 @@
  z-index: -1;
 
 }
-.video{
-    width: 100vw;
+video{
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top:0;
 }
 .mascara{
     height: 100%;
@@ -110,14 +113,14 @@ height: 60px;
 .botao-entre-contato{
     transition: background-color 0.3 ease;
 }
-.fomulario-fale-conosco{
+.formulario-fale-conosco{
   background-color: white; 
   display: flex;
   gap: 20px;
   flex-direction: column;
   position: fixed;
-  top: 30%;
   left: -300px;
+  top: 50px;
   padding: 20px;
   border-radius: 5px;
 }
@@ -135,4 +138,11 @@ border-radius: 5px;
 border: 1px solid gray;
 padding-left: 5px;
 outline-color: #18d80f;
+}
+.mascara-formulario{
+    position: fixed;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99)15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
 }
